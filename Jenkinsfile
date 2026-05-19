@@ -1,4 +1,4 @@
-pipeline{
+pipeline {
 
 	agent any
 	
@@ -7,7 +7,7 @@ pipeline{
 		stage('Hello') {
 		
 			steps {
-				 echo 'Hello'
+				 echo 'Hello Dean'
 			}
 		}
 	}
