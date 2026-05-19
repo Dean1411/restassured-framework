@@ -11,10 +11,9 @@ pipeline {
 			}
 		}
 		
-		stage('Run API tests") {
+		stage('Run API tests') {
 			
-			steps {
-				
+			steps {			
 				sh 'mvn test -DsuiteXmlFile=api-tests.xml'
 			}
 		}
