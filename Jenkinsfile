@@ -10,6 +10,14 @@ pipeline {
 				 echo 'Hello Dean'
 			}
 		}
+		
+		stage('Run API tests") {
+			
+			steps {
+				
+				sh 'mvn test -DsuiteXmlFile=api-tests.xml'
+			}
+		}
 	}
 }
 
