@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-05T09:12:04 SAST" name="Default suite" finished-at="2026-05-05T09:12:16 SAST" duration-ms="12671">
+    <groups>
+    </groups>
+    <test started-at="2026-05-05T09:12:04 SAST" name="Default test" finished-at="2026-05-05T09:12:16 SAST" duration-ms="12671">
+      <class name="api.test.testApi">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.testApi@294425a7]" started-at="2026-05-05T09:12:04 SAST" name="setup" finished-at="2026-05-05T09:12:04 SAST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emsVendTest()[pri:0, instance:api.test.testApi@294425a7]" started-at="2026-05-05T09:12:04 SAST" name="emsVendTest" finished-at="2026-05-05T09:12:12 SAST" duration-ms="7945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emsVendTest -->
+        <test-method signature="confirmTransactionTest()[pri:0, instance:api.test.testApi@294425a7]" started-at="2026-05-05T09:12:12 SAST" name="confirmTransactionTest" finished-at="2026-05-05T09:12:12 SAST" depends-on-methods="api.test.testApi.emsVendTest" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmTransactionTest -->
+        <test-method signature="cancelTransaction()[pri:0, instance:api.test.testApi@294425a7]" started-at="2026-05-05T09:12:12 SAST" name="cancelTransaction" finished-at="2026-05-05T09:12:16 SAST" depends-on-methods="api.test.testApi.confirmTransactionTest" duration-ms="3756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelTransaction -->
+      </class> <!-- api.test.testApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

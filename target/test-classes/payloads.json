@@ -1,0 +1,35 @@
+{
+  "validUserPass": {
+    "username": "Dean.Aschendorf@utilipay.co.za",
+    "password": "M!k3l<_>L@'3l"
+  },
+  
+  "customer":
+  {
+    "accountNo": "000000000D14",
+    "customerName": "Dean Aschendorf",
+    "addressLine1": "Unit 27 Cherrywood Estate",
+    "addressLine2": "Northriding",
+    "addressLine3": "Add 3",
+    "postalCode": "2188",
+    "pP_Recovery": 20,
+    "meterNo": "00000000018",
+    "sgc": 400184,
+    "tariffIndex": 1,
+    "blockPrepaid": false,
+    "currentBalance": 3523.45,
+    "currentBalanceSign": "+",
+    "arrearsBalance": 1985.23,
+    "arrearsBalanceSign": "+",
+    "lastPaymentMade": "2025-03-01T10:03:31",
+    "lastPaymentDate": "2025-03-01T10:03:31",
+    "meterType": "W",
+    "code": "W_TEST",
+    "description": "Domestic Indigent Prepaid",
+    "indigent_Status": 1,
+    "amount": 26.64,
+    "tariff": "Domestic Indigent Prepaid",
+    "krn": 2,
+    "isValidationMode": false
+  }
+}
