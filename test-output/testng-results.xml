@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-19T09:00:12 SAST" name="Default suite" finished-at="2026-05-19T09:00:27 SAST" duration-ms="15387">
+  <suite started-at="2026-05-19T10:22:35 SAST" name="Suite" finished-at="2026-05-19T10:22:44 SAST" duration-ms="8682">
     <groups>
     </groups>
-    <test started-at="2026-05-19T09:00:12 SAST" name="Default test" finished-at="2026-05-19T09:00:27 SAST" duration-ms="15387">
+    <test started-at="2026-05-19T10:22:35 SAST" name="Test" finished-at="2026-05-19T10:22:44 SAST" duration-ms="8682">
       <class name="api.test.testApi">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.testApi@294425a7]" started-at="2026-05-19T09:00:12 SAST" name="setup" finished-at="2026-05-19T09:00:13 SAST" duration-ms="1157" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.testApi@45752059]" started-at="2026-05-19T10:22:35 SAST" name="setup" finished-at="2026-05-19T10:22:36 SAST" duration-ms="544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="emsVendTest()[pri:0, instance:api.test.testApi@294425a7]" started-at="2026-05-19T09:00:13 SAST" name="emsVendTest" finished-at="2026-05-19T09:00:27 SAST" duration-ms="13555" status="PASS">
+        <test-method signature="emsVendTest()[pri:0, instance:api.test.testApi@45752059]" started-at="2026-05-19T10:22:36 SAST" name="emsVendTest" finished-at="2026-05-19T10:22:43 SAST" duration-ms="7612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emsVendTest -->
-        <test-method signature="confirmTransactionTest()[pri:0, instance:api.test.testApi@294425a7]" started-at="2026-05-19T09:00:27 SAST" name="confirmTransactionTest" finished-at="2026-05-19T09:00:27 SAST" depends-on-methods="api.test.testApi.emsVendTest" duration-ms="320" status="PASS">
+        <test-method signature="confirmTransactionTest()[pri:0, instance:api.test.testApi@45752059]" started-at="2026-05-19T10:22:43 SAST" name="confirmTransactionTest" finished-at="2026-05-19T10:22:44 SAST" depends-on-methods="api.test.testApi.emsVendTest" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmTransactionTest -->
-        <test-method signature="cancelTransaction()[pri:0, instance:api.test.testApi@294425a7]" started-at="2026-05-19T09:00:27 SAST" name="cancelTransaction" finished-at="2026-05-19T09:00:27 SAST" depends-on-methods="api.test.testApi.confirmTransactionTest" duration-ms="238" status="PASS">
+        <test-method signature="cancelTransaction()[pri:0, instance:api.test.testApi@45752059]" started-at="2026-05-19T10:22:44 SAST" name="cancelTransaction" finished-at="2026-05-19T10:22:44 SAST" depends-on-methods="api.test.testApi.confirmTransactionTest" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cancelTransaction -->
       </class> <!-- api.test.testApi -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

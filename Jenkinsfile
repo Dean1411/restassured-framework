@@ -13,7 +13,8 @@ pipeline {
 		
 		stage('Run API tests') {
 			
-			steps {			
+			steps {		
+				echo 'running api tests'	
 				sh 'mvn test -DsuiteXmlFile=api-tests.xml'
 			}
 		}
