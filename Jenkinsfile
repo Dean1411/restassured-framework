@@ -15,7 +15,7 @@ pipeline {
 			
 			steps {		
 				echo 'running api tests'	
-				sh 'mvn test -DsuiteXmlFile=api-tests.xml'
+				sh 'mvn test -DsuiteXmlFile=api.xml'
 			}
 		}
 	}
